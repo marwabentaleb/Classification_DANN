@@ -1,6 +1,5 @@
 # DannCovnet
+Classification problem using the DANN method
 
-Projet sur l'utilisation du DANN pour traiter le signal EEG de repos.
-
-launch_command : 
+# Launch command
 th trainEEG.lua -learningRate 0.001 -batchSize 240 -maxEpoch 150 -domainLambda 0.001 -coef 3
